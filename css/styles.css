@@ -1,0 +1,105 @@
+@media screen and (min-width: 300px) {
+	body {
+	  background-color: #fff;
+	  color: #333;
+	  font-family: 'Montserrat', sans-serif;
+	  font-weight: 400;
+	  line-height: 1.45;
+  }
+
+  .banner,
+  main,
+  footer { padding: 1rem; }
+
+  .skull-icon {
+  	height: 32px;
+  	margin: -.05rem .5rem 0 0;
+  	width: 32px;
+
+  }
+
+	h1, h2, h3, h4, h5, .logo {
+		  margin: 2.75rem 0 1rem;
+		  font-family: 'Roboto Slab', serif;
+		  font-weight: 400;
+		  line-height: 1.15;
+	}
+
+	h1,
+	.logo { font-size: 2.441em; }
+
+  h2 { font-size: 1.953em; }
+
+  h3 { font-size: 1.563em; }
+
+  h4,
+  .home-headers { font-size: 1.25em; }
+
+  .home-headers { margin-top: 1.5rem; }
+
+  p { margin-bottom: 1.25em; }
+
+	
+  /* Global Navigation */
+	nav ul {
+	  list-style: none;
+	  padding-left: 0;
+	  text-align: center;
+	}
+
+	nav a {
+    display: block;
+    padding: .5rem 0;
+		text-decoration: none;
+	}
+
+	nav a:link,
+	nav a:visited {
+    background-color: #1c7ab5; /* 4.66:1 ratio */
+		color: #ffffff; }
+
+	nav a:hover {
+		background-color: #0166a3;
+		color: #ffffff;
+		text-decoration: none;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	small,
+  .text-small { font-size: 0.8em; }
+
+  .logo { margin: 0; }
+  
+  /* Global Navigation */
+	nav li {
+		display: inline-block;
+		padding-right: 1.5rem;
+		text-align: left;
+	}
+	
+	nav a:link,
+	nav a:visited {
+		background-color: #eee;
+		border-bottom: 2px solid #1c7ab5;
+		color: #000000;
+	}
+
+	nav a:hover {
+		border-bottom: 5px solid #0166a3;
+		padding-bottom: .25rem;
+	}
+
+	h1 {
+	margin-top: 0;
+	font-size: 3.052em;
+	}
+
+	h2 { font-size: 2.441em;}
+
+	h3 { font-size: 1.953em; }
+
+	h4 { font-size: 1.563em; }
+
+	h5 { font-size: 1.25em; }
+}
