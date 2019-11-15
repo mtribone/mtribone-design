@@ -49,5 +49,12 @@ main {
 
   .home-words p { padding-right: 1em; }
 
+  .about-words {
+  	display: grid;
+  	grid-gap: 4rem;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-areas: "about-studio about-michael";
+  }
+
   .border-right { border-right: 1px solid #ddd; }
 }

@@ -2,10 +2,12 @@
 	body {
 	  background-color: #fff;
 	  color: #333;
-	  font-family: 'Montserrat', sans-serif;
-	  font-weight: 400;
+	  font-family: fira-sans-1, fira-sans-2, sans-serif;
+	  font-style: normal;
 	  line-height: 1.45;
   }
+
+  a { color: #1c7ab5; }
 
   .banner,
   main,
@@ -19,18 +21,17 @@
   }
 
   .logo {
-  	/*border: 1px solid #000;*/
   	margin-right: 0.25em;
   	width: 2em;
   }
 
   .logo-words {
 		margin: 2.75rem 0 1rem;
-		font-family: fira-sans-1, fira-sans-2, sans-serif;
-    font-style: normal;
-    font-weight: 300;
+		font-weight: 300;
 		line-height: 1.15;
 	}
+
+	.logo-words a:link { text-decoration: none; }
 
 	h1, h2, h3, h4, h5 {
 		  margin: 2.75rem 0 1rem;
