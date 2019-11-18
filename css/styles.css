@@ -25,7 +25,7 @@
   a { color: #1c7ab5; }
 
 	h1, h2, h3, .logo-words {
-		  margin: 2.75rem 0 1rem;
+		  margin: 1.75rem 0 0;
       font-weight: 300;
 		  line-height: 1.15;
 	}
