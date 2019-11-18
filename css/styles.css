@@ -24,6 +24,30 @@
 
   a { color: #1c7ab5; }
 
+	h1, h2, h3, .logo-words {
+		  margin: 2.75rem 0 1rem;
+      font-weight: 300;
+		  line-height: 1.15;
+	}
+
+	h4, h5 {
+		  margin: 2.75rem 0 1rem;
+      font-weight: 400;
+		  line-height: 1.15;
+	}
+
+	h1,
+	.logo-words { font-size: 2.441em; }
+
+  h2 { font-size: 1.953em; }
+
+  h3 { font-size: 1.563em; }
+
+  h4,
+  .home-headers { font-size: 1.25em; }
+
+  .home-headers { margin-top: 1.5rem; }
+
   .banner,
   main,
   footer { padding: 1rem; }
@@ -42,31 +66,9 @@
 
   .logo-words {
 		margin: 2.75rem 0 1rem;
-		font-weight: 300;
-		line-height: 1.15;
 	}
 
 	.logo-words a:link { text-decoration: none; }
-
-	h1, h2, h3, h4, h5 {
-		  margin: 2.75rem 0 1rem;
-		  font-family: fira-sans-1, fira-sans-2, sans-serif;
-      font-style: normal;
-      font-weight: 400;
-		  line-height: 1.15;
-	}
-
-	h1,
-	.logo-words { font-size: 2.441em; }
-
-  h2 { font-size: 1.953em; }
-
-  h3 { font-size: 1.563em; }
-
-  h4,
-  .home-headers { font-size: 1.25em; }
-
-  .home-headers { margin-top: 1.5rem; }
 
   p { margin-bottom: 1.25em; }
 
