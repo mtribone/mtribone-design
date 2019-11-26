@@ -5,12 +5,14 @@ main { grid-area: main; }
 .about-studio { grid-area: about-studio; }
 .about-michael { grid-area: about-michael; }
 .home-graphic { grid-area: home-graphic; }
-.background { grid-area: background; }
-.problem { grid-area: problem; }
-.solution { grid-area: solution; }
-.dashboard { grid-area: dashboard; }
+
+.ss-background { grid-area: ss-background; }
+.ss-challenge { grid-area: ss-challenge; }
+.ss-solution { grid-area: ss-solution; }
+.ss-dashboard { grid-area: ss-dashboard; }
 .ss-screen { grid-area: ss-screen; }
 .ss-wireframe { grid-area: ss-wireframe; }
+
 footer { grid-area: footer; }
 
 .container {
@@ -65,11 +67,11 @@ main {
   .ss-words {
   	display: grid;
   	grid-gap: 1rem;
-  	grid-template-columns: 1fr 1fr 1fr;
+  	grid-template-columns: 1.25fr 1fr 1fr;
   	grid-template-areas:
-  		"ss-screen background background"
-  		"problem problem ss-wireframe"
-  		"solution solution dashboard"
+  		"ss-background ss-background ss-background"
+  		"ss-challenge ss-challenge ss-wireframe"
+  		"ss-solution ss-solution ss-dashboard"
   	;
   }
 

@@ -96,6 +96,12 @@
 		color: #ffffff;
 		text-decoration: none;
 	}
+
+	.image {
+		display: block;
+		height: auto;
+		max-width: 100%;
+	}
 }
 
 @media screen and (min-width: 700px) {
@@ -135,4 +141,25 @@
 	h4 { font-size: 1.563em; }
 
 	h5 { font-size: 1.25em; }
+
+	.title-background {
+		align-items: center;
+    display: flex;
+		height: 15rem;
+		justify-content: center;
+
+	}
+
+	.title-background h1 {
+		background-color: rgba(0,0,0,0.5);
+		color: #fff;
+	}
+
+	.ss {
+		background-image: url(../images/scholarsphere_dashboard_large.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position-x: center;
+		background-position-y: 25%; 
+	}
 }
