@@ -36,8 +36,7 @@
 		  line-height: 1.15;
 	}
 
-	h1,
-	.logo-words { font-size: 2.441em; }
+	h1 { font-size: 2.441em; }
 
   h2 { font-size: 1.953em; }
 
@@ -61,10 +60,11 @@
 
   .logo {
   	margin-right: 0.25em;
-  	width: 2em;
+  	width: 1.5em;
   }
 
   .logo-words {
+  	font-size: 2rem;
 		margin: 2.75rem 0 1rem;
 	}
 
@@ -108,7 +108,10 @@
 	small,
   .text-small { font-size: 0.8em; }
 
-  .logo-words { margin: 0; }
+  .logo-words {
+  	font-size: 1.75rem;
+  	margin: .5rem 0;
+  }
   
   /* Global Navigation */
 	nav li {
@@ -161,5 +164,13 @@
 		background-size: cover;
 		background-position-x: center;
 		background-position-y: 25%; 
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.logo { width: 2em; }
+	.logo-words {
+		font-size: 2rem;
+		margin: 0;
 	}
 }
