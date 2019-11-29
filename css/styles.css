@@ -60,12 +60,12 @@
 
   .logo {
   	margin-right: 0.25rem;
-  	width: 1.5rem;
+  	width: 3rem;
   }
 
   .logo-words {
   	font-size: 1.75rem;
-		margin: 2.75rem 0 1rem;
+		margin: 2.25rem 0 1rem;
 	}
 
 	.logo-words a:link { text-decoration: none; }
@@ -108,9 +108,10 @@
 	small,
   .text-small { font-size: 0.8rem; }
 
+  .logo { width: 3.75rem; }
   .logo-words {
-  	font-size: 1.75rem;
-  	margin: .5rem 0;
+  	font-size: 2rem;
+  	margin: 0;
   }
   
   /* Global Navigation */
@@ -169,12 +170,11 @@
 		background-position-x: center;
 		background-position-y: 25%; 
 	}
+
+	.ss-words { margin-top: 4rem; }
 }
 
 @media screen and (min-width: 56.25rem) {
-	.logo { width: 2rem; }
-	.logo-words {
-		font-size: 2rem;
-		margin: 0;
+
 	}
 }
