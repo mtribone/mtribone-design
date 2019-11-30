@@ -8,46 +8,62 @@
   }
 
   .skip a {
-		position:absolute;
-		left:-10000px;
-		top:auto;
-		width:1px;
-		height:1px;
-		overflow:hidden;
+  	height: 1px;
+  	left: -10000px;
+  	overflow: hidden;
+		position: absolute;
+		top: auto;
+		width: 1px;
   }
  
 	.skip a:focus {
-		position:static;
-		width:auto;
-		height:auto;
+		height: auto;
+		position: static;
+		width: auto;
 	}
 
 	.border-right { border-right: 1px solid #ddd; }
 
   a { color: #1c7ab5; }
 
-	h1, h2, h3, .logo-words {
-		  margin: 1.75rem 0 0;
-      font-weight: 300;
-		  line-height: 1.15;
+	h1 {
+		font-size: 2.441rem;
+		font-weight: 300;
+		line-height: 1.15;
+		margin: 1.75rem 0 0;
 	}
 
-	h4, h5 {
-		  margin: 2.75rem 0 1rem;
-      font-weight: 400;
-		  line-height: 1.15;
+  h2 {
+  	font-size: 1.953rem;
+  	font-weight: 300;
+		line-height: 1.15;
+		margin: 1.75rem 0 0;
+  }
+
+  h3 {
+  	font-size: 1.563rem;
+  	font-weight: 300;
+		line-height: 1.15;
+		margin: 1.75rem 0 0;
+  }
+
+	h4 {
+		font-size: 1.25rem;
+		font-weight: 400;
+		line-height: 1.15;
+		margin: 2.75rem 0 1rem;
 	}
 
-	h1 { font-size: 2.441rem; }
+	h5 {
+		font-weight: 400;
+		line-height: 1.15;
+		margin: 2.75rem 0 1rem;
+	}
 
-  h2 { font-size: 1.953rem; }
-
-  h3 { font-size: 1.563rem; }
-
-  h4,
-  .home-headers { font-size: 1.25rem; }
-
-  .home-headers { margin-top: 1.5rem; }
+  .home-headers {
+  	font-size: 1.25rem;
+  	margin-top: 1.5rem;
+  }
 
   .banner,
   main,
@@ -67,6 +83,8 @@
 
   .logo-words {
   	font-size: 1.75rem;
+  	font-weight: 300;
+		line-height: 1.15;
 		margin: 2.25rem 0 1rem;
 	}
 
@@ -136,20 +154,14 @@
 	}
 
 	h1 {
-	margin-top: 0;
-	font-size: 3.052rem;
+		font-size: 3.052rem;
+		margin-top: 0;
 	}
-
-	h2 { font-size: 2.441rem;}
-
-	h3 { font-size: 1.953rem; }
-
-	h4 { font-size: 1.563rem; }
-
-	h5 { font-size: 1.25rem; }
 
 	.title-background {
 		height: 25rem;
+		margin-left: -1rem;
+		margin-right: -1rem;
 	}
 
 	.centered-title {
@@ -161,16 +173,16 @@
 		width: 100%;
 	}
 
-	.centered-title h1 {
+	.centered-title-h1 {
 		color: #fff;
+		text-shadow: 2px 2px 2px black;
 	}
 
 	.ss {
 		background-image: url(../images/scholarsphere_dashboard_large.png);
+		background-position: center 25%;
 		background-repeat: no-repeat;
-		background-size: cover;
-		background-position-x: center;
-		background-position-y: 25%; 
+		background-size: cover; 
 	}
 
 	.ss-words { margin-top: 4rem; }
@@ -178,5 +190,4 @@
 
 @media screen and (min-width: 56.25rem) {
 
-	}
 }
