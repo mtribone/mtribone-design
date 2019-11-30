@@ -20,7 +20,9 @@
 		position:static;
 		width:auto;
 		height:auto;
-	} 
+	}
+
+	.border-right { border-right: 1px solid #ddd; }
 
   a { color: #1c7ab5; }
 
@@ -147,7 +149,7 @@
 	h5 { font-size: 1.25rem; }
 
 	.title-background {
-		height: 15rem;
+		height: 25rem;
 	}
 
 	.centered-title {

@@ -40,8 +40,10 @@ main {
 		"main main"
 		"footer footer";
 	  margin: 0 auto;
-	  max-width: 64rem;
+	  /* max-width: 64rem; */
 	}
+
+	.home-page { max-width: 64rem; }
 
 	.home-words {
 	  display: grid;
@@ -68,7 +70,7 @@ main {
   	grid-template-areas:
   		"case-study-image case-study-content"
   	;
+  	margin: 0 auto;
+  	max-width: 64rem;
   }
-
-  .border-right { border-right: 1px solid #ddd; }
 }
