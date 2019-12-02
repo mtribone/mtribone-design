@@ -7,6 +7,7 @@ main { grid-area: main; }
 .home-graphic { grid-area: home-graphic; }
 
 .case-study-background { grid-area: case-study-background; }
+.case-study-my-role { grid-area: case-study-my-role; }
 .case-study-image { grid-area: case-study-image; }
 .case-study-content { grid-area: case-study-content; }
 
@@ -68,7 +69,7 @@ main {
   	grid-gap: 3rem;
   	grid-template-columns: 1.25fr 1fr;
   	grid-template-areas:
-  	  "case-study-background case-study-background"
+  	  "case-study-background case-study-my-role"
   		"case-study-image case-study-content"
   	;
   	margin: 0 auto;
