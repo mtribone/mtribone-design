@@ -6,6 +6,7 @@ main { grid-area: main; }
 .about-michael { grid-area: about-michael; }
 .home-graphic { grid-area: home-graphic; }
 
+.case-study-background { grid-area: case-study-background; }
 .case-study-image { grid-area: case-study-image; }
 .case-study-content { grid-area: case-study-content; }
 
@@ -40,7 +41,6 @@ main {
 		"main main"
 		"footer footer";
 	  margin: 0 auto;
-	  /* max-width: 64rem; */
 	}
 
 	.home-page { max-width: 64rem; }
@@ -68,6 +68,7 @@ main {
   	grid-gap: 3rem;
   	grid-template-columns: 1.25fr 1fr;
   	grid-template-areas:
+  	  "case-study-background case-study-background"
   		"case-study-image case-study-content"
   	;
   	margin: 0 auto;
