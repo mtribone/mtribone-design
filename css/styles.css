@@ -68,6 +68,12 @@
   	margin-top: 1.5rem;
   }
 
+  .header-borders {
+		border-bottom: 2px solid #ccc;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
+	}
+
   .banner,
   main,
   footer { padding: 1rem; }
@@ -117,6 +123,22 @@
 		text-decoration: none;
 	}
 
+  .project-background-headers {
+  	background-color: #fff;
+  	display: inline-block;
+  	padding: .25rem .5rem;
+  }
+
+  .project-background-content {
+  	background-color: #fff;
+  	padding: 1rem;
+  }
+
+  .image-frame {
+  	background-color: #eee;
+  	padding: 2rem;
+  }
+
 	.image {
 		display: block;
 		height: auto;
@@ -127,17 +149,13 @@
 
 	.unordered-content-list {
 		list-style-type: none;
-		padding-left: 0;
 	}
 
 	.unordered-content-list li { padding-bottom: .5rem; }
 
-	.header-borders {
-		border-top: 1px solid #ccc;
-		border-bottom: 1px solid #ccc;
-		padding-top: .5rem;
-		padding-bottom: .5rem;
-	}
+	/* cream 250 245 235 */
+	/* red 255 47 26 */
+	/* blue 0 175 239 */
 }
 
 @media screen and (min-width: 43.75rem) {
@@ -203,10 +221,10 @@
 	}
 
   .project-bg-color {
-  	background-color: #eee;
+  	background-color: #d7ebf9;
   	margin-left: -1rem;
 		margin-right: -1rem;
-		padding: 3rem;
+		padding: 2rem 3rem 3rem	3rem;
   }
 
 	.ss-words { margin-top: 4rem; }
