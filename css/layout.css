@@ -64,12 +64,22 @@ main {
   	grid-template-areas: "about-studio about-michael";
   }
 
-  .ss-words {
+  .project-background {
   	display: grid;
   	grid-gap: 3rem;
   	grid-template-columns: 1.25fr 1fr;
   	grid-template-areas:
   	  "case-study-background case-study-my-role"
+  	;
+  	margin: 0 auto;
+  	max-width: 64rem;
+  }
+
+  .ss-words {
+  	display: grid;
+  	grid-gap: 3rem;
+  	grid-template-columns: 1.25fr 1fr;
+  	grid-template-areas:
   		"case-study-image case-study-content"
   	;
   	margin: 0 auto;

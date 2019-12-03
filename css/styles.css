@@ -131,6 +131,13 @@
 	}
 
 	.unordered-content-list li { padding-bottom: .5rem; }
+
+	.header-borders {
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		padding-top: .5rem;
+		padding-bottom: .5rem;
+	}
 }
 
 @media screen and (min-width: 43.75rem) {
@@ -195,9 +202,24 @@
 		background-size: cover; 
 	}
 
+  .project-bg-color {
+  	background-color: #eee;
+  	margin-left: -1rem;
+		margin-right: -1rem;
+		padding: 3rem;
+  }
+
 	.ss-words { margin-top: 4rem; }
+
+	.case-study-my-role {
+
+	}
 }
 
 @media screen and (min-width: 56.25rem) {
 
+}
+
+@media screen and (min-width: 75rem) {
+	
 }
