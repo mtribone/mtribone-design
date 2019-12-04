@@ -69,7 +69,7 @@
   }
 
   .header-borders {
-		border-bottom: 2px solid #ccc;
+		border-top: 2px solid #000;
 		padding-top: .5rem;
 		padding-bottom: .5rem;
 	}
@@ -232,6 +232,8 @@
 	.case-study-my-role {
 
 	}
+
+	.case-study-challenge2 { padding-top: 4rem; }
 }
 
 @media screen and (min-width: 56.25rem) {
