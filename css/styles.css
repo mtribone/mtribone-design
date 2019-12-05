@@ -178,8 +178,10 @@
 	}
 
 	.centered-title-h1 {
-		color: #fff;
-		text-shadow: 2px 2px 2px black;
+		background-color: #fff;
+		color: #333;
+		font-style: italic;
+		padding: .5rem 1rem;
 	}
 
 	.ss {
@@ -209,7 +211,7 @@
 	}
 }
 
-@media screen and (min-width: 43.75rem) {
+@media screen and (min-width: 43.75rem) { /* 700px */
 	small,
   .text-small { font-size: 0.8rem; }
 
@@ -249,7 +251,7 @@
 	}
 }
 
-@media screen and (min-width: 56.25rem) {
+@media screen and (min-width: 56.25rem) { /* 900px */
 
 }
 
