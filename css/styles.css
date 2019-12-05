@@ -68,12 +68,6 @@
   	margin-top: 1.5rem;
   }
 
-  .header-borders {
-		border-top: 2px solid #000;
-		padding-top: .5rem;
-		padding-bottom: .5rem;
-	}
-
   .banner,
   main { padding: 1rem; }
 
@@ -122,14 +116,13 @@
 		text-decoration: none;
 	}
 
-  .project-background-headers {
-  	background-color: #fff;
-  	display: inline-block;
-  	padding: .25rem .5rem;
+	.border-top { border-top: 1px solid #333; }
+
+  .padding-top-bottom {
+  	padding: .5rem 0;
   }
 
   .project-background-content {
-  	background-color: #fff;
   	padding: 1rem;
   }
 
@@ -157,13 +150,63 @@
 		font-weight: bold;
 	}
 
+	.bg-white { background-color: #fff; }
+
   footer {
-  	background-color: #faf5eb;
+  	/* background-color: #faf5eb; */
   	padding: 2rem;
   }
 	/* cream 250 245 235 #faf5eb */
 	/* red 255 47 26 */
 	/* blue 0 175 239 */
+}
+
+@media screen and (min-width: 36.25rem) {
+	.title-background {
+		height: 25rem;
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
+
+	.centered-title {
+		align-items: center;
+		background-color: rgba(0,0,0,0.35);
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.centered-title-h1 {
+		color: #fff;
+		text-shadow: 2px 2px 2px black;
+	}
+
+	.ss {
+		background-image: url(../images/scholarsphere_dashboard_large.png);
+		background-position: center 25%;
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+
+  .project-bg-color {
+  	background-color: #faf5eb;
+  	margin-left: -1rem;
+		margin-right: -1rem;
+		padding: 2rem 3rem 3rem	3rem;
+  }
+
+	.ss-words { margin-top: 4rem; }
+
+	.case-study-my-role {
+
+	}
+
+	.case-study-challenge {
+		background-image: url(../images/home-background.svg);
+		background-position: bottom right;
+		background-repeat: no-repeat;
+	}
 }
 
 @media screen and (min-width: 43.75rem) {
@@ -199,46 +242,6 @@
 	h1 {
 		font-size: 3.052rem;
 		margin-top: 0;
-	}
-
-	.title-background {
-		height: 25rem;
-		margin-left: -1rem;
-		margin-right: -1rem;
-	}
-
-	.centered-title {
-		align-items: center;
-		background-color: rgba(0,0,0,0.35);
-		display: flex;
-		height: 100%;
-		justify-content: center;
-		width: 100%;
-	}
-
-	.centered-title-h1 {
-		color: #fff;
-		text-shadow: 2px 2px 2px black;
-	}
-
-	.ss {
-		background-image: url(../images/scholarsphere_dashboard_large.png);
-		background-position: center 25%;
-		background-repeat: no-repeat;
-		background-size: cover; 
-	}
-
-  .project-bg-color {
-  	background-color: #d7ebf9;
-  	margin-left: -1rem;
-		margin-right: -1rem;
-		padding: 2rem 3rem 3rem	3rem;
-  }
-
-	.ss-words { margin-top: 4rem; }
-
-	.case-study-my-role {
-
 	}
 
 	.big-bold-italic {
