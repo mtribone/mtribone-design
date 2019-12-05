@@ -67,7 +67,7 @@ main {
 
   .project-background {
   	display: grid;
-  	grid-gap: 9rem;
+  	grid-gap: 7rem;
   	grid-template-columns: 1.25fr 1fr;
   	grid-template-areas:
   	  "case-study-background case-study-my-role"
