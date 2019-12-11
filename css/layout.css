@@ -15,7 +15,7 @@ main { grid-area: main; }
 
 footer { grid-area: footer; }
 
-.container {
+.wrapper {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas:
@@ -36,18 +36,14 @@ main {
 }
 
 @media screen and (min-width: 43.75rem) { /* 700px */
-  .container {
+  .wrapper {
 	  grid-template-columns: 1fr 1.25fr;
 	  grid-template-areas:
 		"banner global-nav"
 		"main main"
 		"footer footer";
 	  margin: 0 auto;
-	}
-
-	.max-width-content {
-		margin: 0 auto;
-		max-width: 64rem;
+	  max-width: 64rem;
 	}
 
 	.home-words {
@@ -75,8 +71,6 @@ main {
   	grid-template-areas:
   	  "case-study-background case-study-my-role"
   	;
-  	margin: 0 auto;
-  	max-width: 64rem;
   }
 
   .case-study-challenge {
@@ -93,8 +87,6 @@ main {
   		"case-study-content1 case-study-content2"
   		"case-study-content3 case-study-content4"
   	;
-  	margin: 0 auto;
-  	max-width: 64rem;
   }
 }
 
