@@ -4,6 +4,7 @@ main { grid-area: main; }
 .contact { grid-area: contact; }
 .about-studio { grid-area: about-studio; }
 .about-michael { grid-area: about-michael; }
+.plays-well { grid-area: plays-well; }
 .home-graphic { grid-area: home-graphic; }
 
 .case-study-background { grid-area: case-study-background; }
@@ -32,7 +33,8 @@ main {
 	grid-template-areas: 
 	  "contact"
 	  "about-studio"
-	  "about-michael";
+	  "about-michael"
+	  "plays-well";
 }
 
 @media screen and (min-width: 43.75rem) { /* 700px */
@@ -52,6 +54,7 @@ main {
 	  grid-template-columns: 1fr 1fr 1fr;
 	  grid-template-areas: 
 	    "contact about-studio about-michael"
+	    "plays-well plays-well plays-well"
 	    ". home-graphic home-graphic";
   }
 

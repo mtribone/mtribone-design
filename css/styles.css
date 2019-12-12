@@ -118,11 +118,6 @@
   	padding: 1rem;
   }
 
-  .image-frame {
-  	background-color: #eee;
-  	padding: 2rem;
-  }
-
 	.image {
 		display: block;
 		height: auto;
@@ -145,6 +140,13 @@
 
 	.bg-white { background-color: #fff; }
 
+	.inline-block { display: inline-block; }
+
+	.plays-well {
+		font-size: 1.5rem;
+		font-style: italic;
+	}
+
   footer {
   	background-color: #333;
   	color: #fff;
@@ -154,6 +156,15 @@
 	/* cream 250 245 235 #faf5eb */
 	/* red 255 45 25 #ff2d19 */
 	/* blue 0 175 240 #00aff0 */
+}
+
+@media screen and (min-width: 32rem) {
+	.plays-well { font-size: 2.5rem; }
+
+	.image-frame {
+  	background-color: #eee;
+  	padding: 2rem;
+  }
 }
 
 @media screen and (min-width: 36.25rem) {
@@ -243,6 +254,11 @@
 
 	.big-bold-italic {
 		font-size: 1.5rem;
+	}
+
+	.plays-well {
+		font-size: 4rem;
+		font-style: italic;
 	}
 }
 
