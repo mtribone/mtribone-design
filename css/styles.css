@@ -108,7 +108,6 @@
 	}
 
 	.border-top { border-top: 2px solid #333; }
-	.border-right { border-right: 1px solid #ddd; }
 
   .padding-top-bottom {
   	padding: .5rem 0;
@@ -210,7 +209,8 @@
 
 	}
 
-	.case-study-challenge {
+	.case-study-challenge,
+	.home-graphic {
 		background-image: url(../images/home-background.svg);
 		background-position: bottom right;
 		background-repeat: no-repeat;
@@ -227,6 +227,8 @@
   	font-size: 2rem;
   	margin: 0;
   }
+
+  .border-right { border-right: 1px solid #ddd; }
   
   /* Global Navigation */
 	nav li {
@@ -257,6 +259,7 @@
 	}
 
 	.plays-well {
+		display: inline;
 		font-size: 4rem;
 		font-style: italic;
 	}
