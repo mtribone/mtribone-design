@@ -1,17 +1,27 @@
 .banner { grid-area: banner; }
 nav { grid-area: global-nav; }
 main { grid-area: main; }
+
 .contact { grid-area: contact; }
 .about-studio { grid-area: about-studio; }
 .about-michael { grid-area: about-michael; }
 .home-graphic { grid-area: home-graphic; }
 
+/* this seems a little ridiculous but it defines containers not content */
 .case-study-background { grid-area: case-study-background; }
 .case-study-my-role { grid-area: case-study-my-role; }
 .case-study-content1 { grid-area: case-study-content1; }
 .case-study-content2 { grid-area: case-study-content2; }
 .case-study-content3 { grid-area: case-study-content3; }
 .case-study-content4 { grid-area: case-study-content4; }
+
+/* this seems a little ridiculous but it defines containers not content */
+.web-design-content1 { grid-area: web-design-content1; }
+.web-design-content2 { grid-area: web-design-content2; }
+.web-design-content3 { grid-area: web-design-content3; }
+.web-design-content4 { grid-area: web-design-content4; }
+.web-design-content5 { grid-area: web-design-content5; }
+.web-design-content6 { grid-area: web-design-content6; }
 
 footer { grid-area: footer; }
 
@@ -87,6 +97,17 @@ main {
   	grid-template-areas:
   		"case-study-content1 case-study-content2"
   		"case-study-content3 case-study-content4"
+  	;
+  }
+
+  .custom-web-design {
+  	display: grid;
+  	grid-gap: 3rem;
+  	grid-template-columns: repeat(2, 2fr);
+  	grid-template-areas:
+  	  "web-design-content1 web-design-content2"
+  	  "web-design-content3 web-design-content4"
+  	  "web-design-content5 web-design-content6"
   	;
   }
 }
