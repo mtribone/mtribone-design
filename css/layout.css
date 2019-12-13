@@ -90,21 +90,14 @@ main {
   	padding-bottom: 4rem;
   }
 
-  .ss-words {
-  	display: grid;
-  	grid-gap: 3rem;
-  	grid-template-columns: 1.5fr 1.5fr;
-  	grid-template-areas:
-  		"case-study-content1 case-study-content2"
-  		"case-study-content3 case-study-content4"
-  	;
-  }
-
-  .custom-web-design {
+  /* look into the autofill patterns in order to get awayf rom explicitly named areas */
+  .two-column-content {
   	display: grid;
   	grid-gap: 3rem;
   	grid-template-columns: repeat(2, 2fr);
   	grid-template-areas:
+  		"case-study-content1 case-study-content2"
+  		"case-study-content3 case-study-content4"
   	  "web-design-content1 web-design-content2"
   	  "web-design-content3 web-design-content4"
   	  "web-design-content5 web-design-content6"
