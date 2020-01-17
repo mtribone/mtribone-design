@@ -66,8 +66,7 @@
   	margin-top: 1.5rem;
   }
 
-  .banner,
-  main { padding: 1rem; }
+  .banner { padding: 1rem; }
 
   .logo {
   	margin-right: 0.25rem;
@@ -217,6 +216,7 @@
 	small,
   .text-small { font-size: 0.8rem; }
 
+  .banner-wrapper { background-color: #fafafa; }
   .logo { width: 3.75rem; }
 
   .logo-words {
@@ -235,7 +235,7 @@
 	
 	nav a:link,
 	nav a:visited {
-		background-color: #fff;
+		background-color: #fafafa;
 		border-bottom: 2px solid #1c7ab5;
 		color: #000000;
 	}
@@ -259,6 +259,8 @@
 		font-size: 4rem;
 		font-style: italic;
 	}
+
+	.margin-top-5 { margin-top: 5rem; }
 }
 
 @media screen and (min-width: 56.25rem) { /* 900px */
