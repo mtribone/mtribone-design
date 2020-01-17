@@ -1,3 +1,4 @@
+.banner-wrapper { grid-area: banner-wrapper; }
 .banner { grid-area: banner; }
 nav { grid-area: global-nav; }
 main { grid-area: main; }
@@ -29,8 +30,7 @@ footer { grid-area: footer; }
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas:
-	  "banner"
-	  "global-nav"
+	  "banner-wrapper"
 	  "main"
 	  "footer";
 	margin: 0;
@@ -50,9 +50,17 @@ main {
   .wrapper {
 	  grid-template-columns: 1fr 1.25fr;
 	  grid-template-areas:
-		"banner global-nav"
+		"banner-wrapper banner-wrapper"
 		"main main"
 		"footer footer";
+	}
+
+	.banner-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1.25fr;
+		grid-template-areas:
+		"banner global-nav"
+		;
 	}
 
 	.max-content-width {
