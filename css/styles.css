@@ -168,7 +168,7 @@
 
 @media screen and (min-width: 36.25rem) {
 	.title-background {
-		height: 25rem;
+		height: 40rem;
 		margin-left: -1rem;
 		margin-right: -1rem;
 	}
@@ -196,10 +196,7 @@
 		background-size: cover; 
 	}
 
-  .project-bg-color {
-  	background-color: #faf5eb;
-  	margin-left: -1rem;
-		margin-right: -1rem;
+  .project-background {
 		padding: 2rem 3rem 3rem	3rem;
   }
 
