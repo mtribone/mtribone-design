@@ -210,16 +210,13 @@
 }
 
 @media screen and (min-width: 43.75rem) { /* 700px */
+
+	.logo-words { margin: 0; }
+
 	small,
   .text-small { font-size: 0.8rem; }
 
   .banner-wrapper { background-color: #fafafa; }
-  .logo { width: 3.75rem; }
-
-  .logo-words {
-  	font-size: 2rem;
-  	margin: 0;
-  }
 
   .border-right { border-right: 1px solid #ddd; }
   
@@ -260,8 +257,12 @@
 	}
 }
 
-@media screen and (min-width: 56.25rem) { /* 900px */
+@media screen and (min-width: 800px) {
+  .logo-words { font-size: 2rem; }
+}
 
+@media screen and (min-width: 56.25rem) { /* 900px */
+	.logo { width: 3.75rem; }
 }
 
 @media screen and (min-width: 75rem) {
