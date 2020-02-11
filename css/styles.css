@@ -24,6 +24,8 @@
 
   a { color: #1c7ab5; }
 
+  main { padding: 1rem; }
+
 	h1 {
 		color: #1c7ab5;
 		font-size: 2.441rem;
@@ -240,6 +242,8 @@
 		padding-bottom: .25rem;
 	}
 
+	main { padding-top: 5rem; }
+
 	h1 {
 		font-size: 3.052rem;
 		margin-top: 0;
@@ -254,8 +258,6 @@
 		font-size: 4rem;
 		font-style: italic;
 	}
-
-	.margin-top-5 { margin-top: 5rem; }
 }
 
 @media screen and (min-width: 56.25rem) { /* 900px */
