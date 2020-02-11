@@ -172,7 +172,6 @@
 	.centered-title {
 		align-items: center;
 		background: linear-gradient(33deg, rgba(0,0,0,0.05), rgba(0,0,0,0.55));
-		/* background-color: rgba(0,0,0,0.35); */
 		display: flex;
 		justify-content: center;
 		padding-bottom: 22vh;
@@ -190,7 +189,9 @@
 		background-image: url(../images/scholarsphere_dashboard_large.png);
 		background-position: center 25%;
 		background-repeat: no-repeat;
-		background-size: cover; 
+		background-size: cover;
+		margin-left: -1rem;
+		margin-right: -1rem;
 	}
 
   .project-background {
@@ -240,6 +241,8 @@
 	}
 
 	main { padding-top: 5rem; }
+
+	.hero-image { padding-top: 0; }
 
 	h1 {
 		font-size: 3.052rem;
