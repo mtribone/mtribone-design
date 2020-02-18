@@ -111,6 +111,10 @@
 	.border-top { border-top: 2px solid #333; }
 	.border-bottom { border-bottom: 2px solid #333; }
 
+  .margin-1 { margin: 1rem; }
+
+  .margin-bottom-3 { margin-bottom: 3rem; }
+
   .padding-top-bottom {
   	padding: .5rem 0;
   }
