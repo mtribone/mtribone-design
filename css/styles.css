@@ -262,6 +262,12 @@
 		font-size: 4rem;
 		font-style: italic;
 	}
+
+	.services-text1,
+	.services-text2,
+	.services-text3 {
+		padding-bottom: 3rem;
+	}
 }
 
 @media screen and (min-width: 800px) {

@@ -8,6 +8,13 @@ main { grid-area: main; }
 .about-michael { grid-area: about-michael; }
 .home-graphic { grid-area: home-graphic; }
 
+.services-img1 { grid-area: services-img1; }
+.services-text1 { grid-area: services-text1; }
+.services-img2 { grid-area: services-img2; }
+.services-text2 { grid-area: services-text2; }
+.services-img3 { grid-area: services-img3; }
+.services-text3 { grid-area: services-text3; }
+
 
 footer { grid-area: footer; }
 
@@ -88,6 +95,16 @@ main {
   	grid-gap: 3rem;
   	grid-template-columns: repeat(2, 2fr);
   	;
+  }
+
+  .services-two-column {
+  	display: grid;
+  	grid-gap: 3rem;
+  	grid-template-columns: repeat(2, 2fr);
+  	grid-template-areas: 
+  	  "services-img1 services-text1"
+  	  "services-text2 services-img2"
+  	  "services-img3 services-text3";
   }
 }
 
