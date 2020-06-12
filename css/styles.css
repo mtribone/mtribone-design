@@ -8,6 +8,7 @@
   }
 
   .skip a {
+  	background-color: #fff;
   	height: 1px;
   	left: -10000px;
   	overflow: hidden;
