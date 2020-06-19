@@ -199,6 +199,15 @@
 		margin-right: -1rem;
 	}
 
+	.ollies {
+		background-image: url(../images/ollies-hero.png);
+		background-position: center 25%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
+
   .project-background {
 		padding: 2rem 3rem 3rem	3rem;
   }
