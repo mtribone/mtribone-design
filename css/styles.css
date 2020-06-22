@@ -153,6 +153,47 @@
 		font-style: italic;
 	}
 
+	.color-scheme {
+		list-style-type: none;
+	}
+
+	.color-scheme li {
+		padding: .5rem;
+		margin-bottom: .5rem;
+	}
+
+	.border-left-4 {
+		border-left: 4rem solid;
+	}
+
+	.purple {
+		color: #7f47dd;
+	}
+
+	.yellow {
+		color: #f0be00;
+	}
+
+	.blue-middle {
+		color: #0071bc;
+	}
+
+	.blue-sky {
+		color: #29abe2
+	}
+
+	.black {
+		color: #000
+	}
+
+	.gray-middle {
+		color: #666;
+	}
+
+	.gray-light {
+		color: #999;
+	}
+
   footer {
   	background-color: #333;
   	color: #fff;
